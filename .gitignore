@@ -1,1 +1,22 @@
+# Ignore Files and Folders
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore notebook outputs (if you export HTML or temp files)
+*.html
+*.pdf
+
+# Ignore data and models (if not shared publicly)
+data/
+models/
+
+# Ignore local setup or config files
+*.env
+*.DS_Store
+
+# Ignore specific project files (custom to your case)
 Suggest_Projects.md
+steps.md
+customer-churn-prediction.ipynb
+gender_submission.csv
