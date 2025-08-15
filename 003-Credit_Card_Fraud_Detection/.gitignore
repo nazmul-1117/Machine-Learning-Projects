@@ -1,0 +1,57 @@
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs
+*.log
+
+# -----------------------------
+# Jupyter Notebooks
+# -----------------------------
+.ipynb_checkpoints/
+references/
+prac1.ipynb
+
+# -----------------------------
+# Data files (raw and processed)
+# -----------------------------
+data/raw/*
+data/processed/*
+
+# Keep README or placeholder in data folders
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# -----------------------------
+# Model files
+# -----------------------------
+models/
+*.pkl
+*.joblib
+
+# -----------------------------
+# OS / Editor junk
+# -----------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
