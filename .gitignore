@@ -14,9 +14,16 @@ models/
 # Ignore local setup or config files
 *.env
 *.DS_Store
+*.vscode
+
+# vscode Workspace
+*.code-workspace
 
 # Ignore specific project files (custom to your case)
 Suggest_Projects.md
 steps.md
 customer-churn-prediction.ipynb
 gender_submission.csv
+
+# Random Folder
+practice/
